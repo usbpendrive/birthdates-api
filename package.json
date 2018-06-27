@@ -2,7 +2,7 @@
   "name": "birthdates-api",
   "version": "1.0.0",
   "description": "Birthdates API",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "https://github.com/usbpendrive/birthdates-api",
   "author": "usbpendrive <ferry.fernando@gmail.com>",
   "license": "MIT",
