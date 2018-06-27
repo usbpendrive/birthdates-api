@@ -1,7 +1,7 @@
 'use strict';
 
 require('dotenv').config();
-const config = require('./app/config/config')();
+const config = require('./app/config/configs')();
 const restify = require('restify');
 const versioning = require('restify-url-semver');
 
