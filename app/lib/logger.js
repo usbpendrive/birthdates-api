@@ -17,7 +17,7 @@ const createTransports = function (config) {
 
     if (config.console) {
         customTransports.push(
-            new transports.console({
+            new transports.Console({
                 level: config.level
             })
         );
@@ -28,7 +28,7 @@ const createTransports = function (config) {
 
 module.exports = {
     create: function (config) {
-        return new createLogger({
+        return createLogger({
             transports: createTransports(config),
             format: combine(
                 label({label: 'Birthdates API'}),
